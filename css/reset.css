@@ -1,0 +1,35 @@
+html, body, p, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background: transparent;
+    color: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+
+strong, b { 
+    font-weight: bolder; 
+}

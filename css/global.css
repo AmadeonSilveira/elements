@@ -1,0 +1,35 @@
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-inline: 20px;
+}
+@media screen and (max-width: 1200px) {
+   .container {
+        width: calc(100% - 40px);
+   } 
+}
+
+/** FLEXBOX */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap3 {
+    gap: 15px;
+}
